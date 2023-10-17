@@ -1,0 +1,40 @@
+{
+  "cities": [
+    {
+      "cityName": "Madrid",
+      "country": "Spain",
+      "emoji": "🏴",
+      "date": "2027-07-15T08:22:53.976Z",
+      "notes": "",
+      "position": {
+        "lat": 40.46635901755316,
+        "lng": -3.7133789062500004
+      },
+      "id": 17806751
+    },
+    {
+      "cityName": "Patan",
+      "country": "Nepal",
+      "emoji": "🚩",
+      "date": "2023-10-16T19:10:23.178Z",
+      "notes": "My Hometown",
+      "position": {
+        "lat": "27.664068965384516",
+        "lng": "85.308837890625"
+      },
+      "id": 98443199
+    },
+    {
+      "cityName": "Markham",
+      "country": "Canada",
+      "emoji": "🚩",
+      "date": "2023-10-16T23:20:55.126Z",
+      "notes": "",
+      "position": {
+        "lat": "43.866218006556394",
+        "lng": "-79.25811767578126"
+      },
+      "id": 98443200
+    }
+  ]
+}
