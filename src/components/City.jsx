@@ -1,4 +1,4 @@
-import { useParams, useSearchParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import styles from "./City.module.css";
 import { useEffect } from "react";
 import { useCities } from "../contexts/CitiesContext";
@@ -16,9 +16,13 @@ const formatDate = (date) =>
 function City() {
   const { id } = useParams();
   const { getCityById, currentCity, loading } = useCities();
-  useEffect(function () {
-    getCityById(id);
-  }, []);
+
+  useEffect(
+    function () {
+      getCityById(id);
+    },
+    [id, getCityById]
+  );
 
   if (loading) return <Spinner />;
 
